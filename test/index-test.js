@@ -1,29 +1,5 @@
 var index = require("../index.js")
 
-if (true){
-  console.log(index.message)
-  if (index.name === "Susan"){
-    console.log(index.name)
-  }else {
-    index.name = "Susan"
-    console.log(index.name)
-  }
-  if (index.height>40){
-    index.height = 39
-    console.log (index.height)
-  } else {
-    console.log (index.height)
-  }
-  if (index.message === "${name} is ${height} inches tall"){
-   console.log("${index.name} is ${index.height} inches tall")
-  } else {
-    console.log(index.message)
-  }
-
-
-}
-
-/*
 describe('what-is-a-test', () => {
   describe('Name', () => {
     it('returns "Susan"', () => {
@@ -45,4 +21,3 @@ describe('what-is-a-test', () => {
     })
   })
 })
-*/
